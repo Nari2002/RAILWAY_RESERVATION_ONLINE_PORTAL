@@ -233,7 +233,7 @@ class ticket_book(src):
                     break
                 else:
                     print("NO SEATS AVAILABLE PLEASE CHECK SEAT AVAILABILITY")
-            elif self.seat=='3':
+            elif self.nseats=='3':
                 if self.nseats<=seatsl:
                     cust_details['seat type']="SLEEPER CLASS"
                     self.nseats=int(input("ENTER NO OF TICKETS:"))
